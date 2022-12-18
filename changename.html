@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body dir="rtl">
+    <h1>הודעה על שינוי שם</h1>
+    <p>הדרכה: רשאי להגיש הבקשה המבקש/ת עבור עצמו/ה בלבד, נוכחות אישית והצגת תעודת הזהות ומסמך הנסיעה שלך בלשכה חובה. בבקשה לשינוי
+        שם פרטי / שם משפחה נגבית אגרה על פי החוק, האגרה נגבית עבור הגשת הבקשה ואין מחזירים התשלום אם הבקשה נדחית או מתבטלת.
+        בהודעה לשינוי שם הכוללת שינוי שם גם לבן/בת הזוג נדרשת נוכחותו/ה האישית של בן/בת הזוג בלשכה בצירוף: תעודת זהות ומסמכי הנסיעה.
+        בהודעה לשינוי שם עבור ילדים קטינים, חובת נוכחות אישית של 2 ההורים והקטינים עבורם מבוקש השינוי בלשכה, בצירוף: תעודת זהות ומסמך
+        הנסיעה של כל אחד מהם ככל שברשותם תעודת זהות ומסמך נסיעה. תעודת הזהות ומסמך הנסיעה יוחלפו עם שינוי השם, ככל שיש זכאות לכך.
+        נא למלא הטופס בכתב ברור, רשום הפרטים על-פי תעודת הזהות שלך ו/או של הוריך, על-פי ההדרכה שלעיל ובהמשך הבקשה.</p>
+    
+        <form action="https://formspree.io/f/mknawjnq" method="post">
+            <fieldset>
+                <legend>פרטי המודיע.ה</legend>
+                
+                   
+                    <label for="1">מספר הזהות</label>
+                <input type="number" id="1" name="id-num-oi"><br><br>
+                       
+                    <label for="2">שם משפחה</label>
+                <input type="text" id="2" name="surname-oi"><br><br>
+                       
+                    <label for="3">שם פרטי</label>
+                <input type="text" id="3" name="first-name-oi"><br><br>
+                       
+                    <label for="4"> מס טלפון נייד</label>
+                <input type="tel" id="4" name="tel-num-oi"><br><br>
+                    
+                <p>אני מודיע/ה בזה כי ברצוני לשנות את שמי, שם בן / בת הזוג ואת שם ילדי שטרם מלאו להם 18 שנה כלהלן:
+                    לידיעתך, לפי סעיף 2(ב( לחוק השמות ניתן לרשום עד שני שמות משפחה בלבד</p>
+               
+            </fieldset>
+            <fieldset>
+                <legend>המודיע</legend>
+                <p>השם הנוכחי</p>
+                    <label for="5">שם פרטי</label>
+               <input type="text" id="5" placeholder="שם פרטי נוכחי" name="current-first-name-inq"><br><br>
+                    <label for="6">שם משפחה</label>
+               <input type="text" id="6" placeholder="שם משפחה נוכחי" name="current-surname-inq"><br><br>
+                    <label for="7">מס תעודת זהות</label>
+               <input type="number" id="7"><br><br>
+               <p>השם שנבחר</p>
+               <p>בעברית</p>
+                    <label for="8"> שם פרטי</label>
+               <input type="text" id="8" placeholder="שם פרטי שנבחר (בעברית)" name="chosen-first-name-inq-heb"><br><br>
+                    <label for="9">שם משפחה</label>
+               <input type="text" id="9" placeholder="שם משפחה שנבחר (בעברית)" name="chosen-surname-inq-heb"><br><br>
+               <p>באנגלית</p>
+                    <label for="10">שם פרטי</label>
+               <input type="text" id="10" placeholder="שם פרטי שנבחר (באנגלית)" name="chosen-firstname-inq-eng"><br><br>
+                    <label for="11">שם משפחה</label>
+               <input type="text" id="11" placeholder="שם משפחה שנבחר (באנגלית)" name="chosen-surname-inq-eng"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>בן.בת הזוג</legend>
+                <p>השם הנוכחי</p>
+                    <label for="12">שם פרטי</label>
+               <input type="text" id="12" placeholder="שם פרטי נוכחי" name="current-first-name-spouse"><br><br>
+                    <label for="13">שם משפחה</label>
+               <input type="text" id="13" placeholder="שם משפחה נוכחי" name="current-surname-spouse"><br><br>
+                    <label for="14">מס תעודת זהות</label>
+               <input type="number" id="14"><br><br>
+               <p>השם שנבחר</p>
+               <p>בעברית</p>
+                    <label for="15"> שם פרטי</label>
+               <input type="text" id="15" placeholder="שם פרטי שנבחר (בעברית)" name="chosen-first-name-spouse-heb"><br><br>
+                    <label for="16">שם משפחה</label>
+               <input type="text" id="16" placeholder="שם משפחה שנבחר (בעברית)" name="chosen-surname-spouse-heb"><br><br>
+               <p>באנגלית</p>
+                    <label for="17">שם פרטי</label>
+               <input type="text" id="17" placeholder="שם פרטי שנבחר (באנגלית)" name="chosen-firstname-spouse-eng"><br><br>
+                    <label for="18">שם משפחה</label>
+               <input type="text" id="18" placeholder="שם משפחה שנבחר (באנגלית)" name="chosen-surname-spouse-eng"><br><br>    
+            </fieldset>
+            <fieldset>
+                <legend>ילדים(1) </legend>
+                <p>השם הנוכחי</p>
+                    <label for="19">שם פרטי</label>
+               <input type="text" id="19" placeholder="שם פרטי נוכחי" name="current-first-name-kid1"><br><br>
+                    <label for="20">שם משפחה</label>
+               <input type="text" id="20" placeholder="שם משפחה נוכחי" name="current-surname-kid1"><br><br>
+                    <label for="21">מס תעודת זהות</label>
+               <input type="number" id="21"><br><br>
+               <p>השם שנבחר</p>
+               <p>בעברית</p>
+                    <label for="22"> שם פרטי</label>
+               <input type="text" id="22" placeholder="שם פרטי שנבחר (בעברית)" name="chosen-first-name-kid1-heb"><br><br>
+                    <label for="23">שם משפחה</label>
+               <input type="text" id="23" placeholder="שם משפחה שנבחר (בעברית)" name="chosen-surname-kid1-heb"><br><br>
+               <p>באנגלית</p>
+                    <label for="24">שם פרטי</label>
+               <input type="text" id="24" placeholder="שם פרטי שנבחר (באנגלית)" name="chosen-firstname-kid1-eng"><br><br>
+                    <label for="25">שם משפחה</label>
+               <input type="text" id="25" placeholder="שם משפחה שנבחר (באנגלית)" name="chosen-surname-kid1-eng"><br><br>    
+            </fieldset>
+            <fieldset>
+                <legend>ילדים(2) </legend>
+                <p>השם הנוכחי</p>
+                    <label for="26">שם פרטי</label>
+               <input type="text" id="26" placeholder="שם פרטי נוכחי" name="current-first-name-kid2"><br><br>
+                    <label for="27">שם משפחה</label>
+               <input type="text" id="27" placeholder="שם משפחה נוכחי" name="current-surname-kid2"><br><br>
+                    <label for="28">מס תעודת זהות</label>
+               <input type="number" id="28"><br><br>
+               <p>השם שנבחר</p>
+               <p>בעברית</p>
+                    <label for="29"> שם פרטי</label>
+               <input type="text" id="29" placeholder="שם פרטי שנבחר (בעברית)" name="chosen-first-name-kid2-heb"><br><br>
+                    <label for="30">שם משפחה</label>
+               <input type="text" id="30" placeholder="שם משפחה שנבחר (בעברית)" name="chosen-surname-kid2-heb"><br><br>
+               <p>באנגלית</p>
+                    <label for="31">שם פרטי</label>
+               <input type="text" id="31" placeholder="שם פרטי שנבחר (באנגלית)" name="chosen-firstname-kid2-eng"><br><br>
+                    <label for="32">שם משפחה</label>
+               <input type="text" id="32" placeholder="שם משפחה שנבחר (באנגלית)" name="chosen-surname-kid2-eng"><br><br>    
+            </fieldset>
+            <fieldset>
+                <legend>ילדים(3) </legend>
+                <p>השם הנוכחי</p>
+                    <label for="33">שם פרטי</label>
+               <input type="text" id="33" placeholder="שם פרטי נוכחי" name="current-first-name-kid3"><br><br>
+                    <label for="34">שם משפחה</label>
+               <input type="text" id="34" placeholder="שם משפחה נוכחי" name="current-surname-kid3"><br><br>
+                    <label for="35">מס תעודת זהות</label>
+               <input type="number" id="35"><br><br>
+               <p>השם שנבחר</p>
+               <p>בעברית</p>
+                    <label for="36"> שם פרטי</label>
+               <input type="text" id="36" placeholder="שם פרטי שנבחר (בעברית)" name="chosen-first-name-kid3-heb"><br><br>
+                    <label for="37">שם משפחה</label>
+               <input type="text" id="37" placeholder="שם משפחה שנבחר (בעברית)" name="chosen-surname-kid3-heb"><br><br>
+               <p>באנגלית</p>
+                    <label for="38">שם פרטי</label>
+               <input type="text" id="38" placeholder="שם פרטי שנבחר (באנגלית)" name="chosen-firstname-kid3-eng"><br><br>
+                    <label for="39">שם משפחה</label>
+               <input type="text" id="39" placeholder="שם משפחה שנבחר (באנגלית)" name="chosen-surname-kid3-eng"><br><br>    
+            </fieldset>
+            <fieldset>
+                <label for="40">נא לפרט הנימוקים לבקשה:</label>
+                <textarea name="explanations" id="40" cols="30" rows="10"></textarea>
+                <p>ידוע לי תוכן סעיף 20 בחוק לפיו בגיר ששינה שמו לא ישוב וישנה את שמו תוך 7 שנים, אלא באישור השר, כמו-כן ידוע לי כי בהתאם לחוק השם
+                    הקודם יירשם בספח תעודת הזהות ובדרכון הלאומי במשך 7 שנים מיום השינוי.
+                    ידוע לי כי שינוי שם תלוי בבדיקה בדבר העדר הרשעה בעבירת מין, כהגדרתה בחוק הגנה על הציבור מפני ביצוע עבירת מין, התשס"ו - 2</p>
+                        <label for="41">תאריך</label>
+                    <input type="date" id="41" name="date-of-inq"><br><br>
+                        <label for="42">(חתימת המודיע/ה (בנוכחות הפקיד/ה</label>
+                    <input type="text" id="42" name="signature-of-inquirer"><br><br>
+                        <label for="43">(חתימת בן/בת הזוג (בנוכחות הפקיד/ה</label>
+                    <input type="text" id="43" name="signature-of-spouse"><br><br>
+                        <label for="44">שם הפקיד/ה</label>
+                    <input type="text" id="44" name="name-of-secutery"><br><br>
+                    <hr>
+                    <p>הריני להודיע כי בדעתי להגיש בקשה לשינוי שם, תוך מודעות לכך שהדבר כרוך בביטול מסמכי הנסיעה הקיימים, כך שאם ישנה החלטה של גורם
+                        מוסמך האוסרת על הנפקת מסמך נסיעה חדש, לא אוכל לקבל מסמך נסיעה חדש עם השם החדש</p>
+                            <label for="45">שם ומשפחה</label>
+                        <input type="text" name="full-name-oi" id="45"><br><br>
+                            <label for="46">מספר זהות</label>
+                        <input type="number" name="id-oi" id="46"><br><br>
+                            <label for="47">חתימה</label>
+                        <input type="text" id="47"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>לשימוש המשרד</legend>
+                    <label for="48">הלשכה ב-</label>
+                <input type="text" id="48" name="haliska-be"><br><br>
+                    <label for="49">תאריך</label>
+                <input type="date" id="49" name="date-misrad"><br><br>
+                    <label for="50">שם מקבל/ת הבקשה</label>
+                <input type="text" id="50" name="name-of-mekabel/et"><br><br>
+                    <label for="51">שם הבודק/ת</label>
+                <input type="text" id="51" name="name-of-checker"><br><br>
+                    <label for="52">קבלה מספר</label>
+                <input type="number" id="52" name="inquiry-number"><br><br>
+            </fieldset>
+            <button type="submit">שלח</button>
+        </form>
+
+</body>
+</html>

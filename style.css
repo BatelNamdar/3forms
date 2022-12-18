@@ -1,0 +1,23 @@
+fieldset{
+    background-color: aquamarine;
+    border: 2px double;
+}
+legend{
+    font-size: 150%;
+    background-color: beige;
+    border: 1px solid;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+body{
+    background-color: rgb(11, 80, 80);
+    text-align: center;
+}
+label{
+    font-size: 130%;
+}
+a{
+    color: beige;
+    font-size: 120%;
+}
